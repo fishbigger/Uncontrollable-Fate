@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = startPos;
             UI.deaths++;
+            rigidBody.velocity = new Vector2(0, 0);
         }
     }
 
