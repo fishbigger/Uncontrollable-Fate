@@ -7564,7 +7564,7 @@ MonoBehaviour:
   animator: {fileID: 1652485641}
   respawn: {fileID: 84381670}
   rigidBody: {fileID: 1652485636}
-  startPos: {x: 0, y: 0}
+  startPos: {x: -12.2, y: 38.01}
   movementSpeed: 10
   jumpSpeed: 5
   chance: 0.15
