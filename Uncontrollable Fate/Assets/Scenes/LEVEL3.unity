@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb5330d6a6574601bc3b0e1edfc2f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1652485640}
   interval: 4
 --- !u!61 &358115297
 BoxCollider2D:
@@ -1481,7 +1481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb5330d6a6574601bc3b0e1edfc2f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1652485640}
   interval: 4
 --- !u!61 &732600722
 BoxCollider2D:
