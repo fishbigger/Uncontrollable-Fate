@@ -846,6 +846,7 @@ MonoBehaviour:
   deathText: {fileID: 1194860732}
   timeText: {fileID: 1724966059}
   deaths: 0
+  time: 0
 --- !u!1 &240260302
 GameObject:
   m_ObjectHideFlags: 0
@@ -7326,7 +7327,7 @@ MonoBehaviour:
   startPos: {x: -12.2, y: 38.01}
   movementSpeed: 10
   jumpSpeed: 5
-  chance: 0.15
+  chance: 0.25
   UI: {fileID: 213420312}
 --- !u!95 &1652485641
 Animator:

@@ -8,8 +8,14 @@ public class UIHandler : MonoBehaviour
     public TextMeshProUGUI deathText;
     public TextMeshProUGUI  timeText;
 
-    public int deaths = 0;
-    private float time = 0f;
+    public int deaths;
+    public float time;
+
+    void Start()
+    {
+        deaths = PlayerPrefs.GetInt("deaths", 0);
+        time = PlayerPrefs.GetFloat("time", 0f);
+    }
 
     // Update is called once per frame
     void Update()

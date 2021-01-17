@@ -24,6 +24,9 @@ public class elevatorController : MonoBehaviour
         //Debug.Log("Entered" + collision.gameObject.name);
         if (collision.gameObject.name.Equals("GameObject"))
         {
+            PlayerPrefs.SetInt("deaths", playerMovement.UI.deaths);
+            PlayerPrefs.SetFloat("time", playerMovement.UI.time);
+
             Destroy(playerLight);
             Destroy(playerMovement.gameObject);
             playerMovement.enabled = false;
