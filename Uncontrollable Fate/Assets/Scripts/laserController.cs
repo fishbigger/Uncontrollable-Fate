@@ -33,8 +33,6 @@ public class laserController : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(time);
-
         time += Time.deltaTime;
 
         if (time >= interval)
