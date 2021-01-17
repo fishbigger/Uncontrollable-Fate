@@ -28,6 +28,7 @@ public class laserController : MonoBehaviour
             player.transform.position = player.startPos;
             player.UI.deaths++;
             player.rigidBody.velocity = new Vector2(0, 0);
+            player.respawn.Play();
         }
     }
 

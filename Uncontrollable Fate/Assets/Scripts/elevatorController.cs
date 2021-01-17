@@ -21,7 +21,7 @@ public class elevatorController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Entered" + collision.gameObject.name);
+        //Debug.Log("Entered" + collision.gameObject.name);
         if (collision.gameObject.name.Equals("GameObject"))
         {
             Destroy(playerLight);

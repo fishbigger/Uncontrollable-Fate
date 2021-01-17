@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] Animator animator;
 
+    public AudioSource respawn;
+
     public Rigidbody2D rigidBody;
 
     public Vector2 startPos;
@@ -75,6 +77,7 @@ public class PlayerController : MonoBehaviour
             transform.position = startPos;
             UI.deaths++;
             rigidBody.velocity = new Vector2(0, 0);
+            respawn.Play();
         }
     }
 
