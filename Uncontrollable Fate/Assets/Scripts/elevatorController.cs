@@ -29,7 +29,7 @@ public class elevatorController : MonoBehaviour
 
             Destroy(playerLight);
             Destroy(playerMovement.gameObject);
-            playerMovement.enabled = false;
+            //playerMovement.enabled = false;
             animator.SetTrigger("Close");
 
 
